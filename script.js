@@ -32,7 +32,7 @@ function displayResults(weather) {
     tempValue = `${Math.round(weather.main.temp)}`;
 
     if (tempValue > 20 & tempValue < 32) {
-        var url1 = "./Images/cold.png";
+        var url1 = "./Images/warm.png";
         document.body.style.backgroundImage = `url(${url1})`;
         console.log("Wram Day");
     } 
